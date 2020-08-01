@@ -1,0 +1,2 @@
+--write a SQL query to list the names of all people who starred in Toy Story
+SELECT name FROM people WHERE people.id IN (SELECT person_id FROM stars JOIN movies ON movies.id = stars.movie_id WHERE movies.title = "Toy Story");

@@ -1,0 +1,45 @@
+body
+{
+  background-color: purple;
+  border: 5px solid red;
+}
+header
+{
+  text-align: left;
+  font-size: large;
+  color: Red;
+}
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: red;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: gray;
+  color: black;
+}
+main
+{
+  text-align: center;
+  font-size: medium;
+  color: black;
+}
+#foot
+{
+  text-align: center;
+  font-size: large;
+  color: Green;
+  text-shadow: 2px 2px 5px red;
+}
